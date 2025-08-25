@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>pendaftaran</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <from action="" method="post">
+        <label for="nama">Nama Lengkap</label>
+        <input type="text"name="nama" id="nama" value="Maya Juliyani" />
+        <br />
+        <label for="email">email</label>
+        <input type="email"name="email" id="email" value="@mayajuliyani23" />
+        <br />
+        <label for="password">password</label>
+        <input type="password" name="password" id="password" value="" />
+        <br />
+        <label for="tanggal lahir">tanggal lahir</label>
+        <input type="date" nama="tanggal lahir" id="tanggal lahir" value="" />
+        <br />
+        <label for="">jenis kelamin</label>
+        <input type="radio" name="jkel" id="laki-laki" value="laki-laki" />
+        <label for="laki-laki">laki-laki</label>
+        <input type="radio" name="jkel" id="perempuan" value="perempuan" />
+        <label for="perempuan"> perempuan</label>
+        <br />
+        <label for="asal">kota asal</label>
+        <select name="asal" id="asal"
+           <option value="sukabumi">sukabumi</option>
+           <option value="bandung">bandung</option>
+           <option value="jakarta">jakarta</option>
+        </select>
+        <br />
+        <label for="bio">bio singkat</label>
+        <textarea name="bio" id=bio rows="8" cols="40"></textarea>
+        <br />
+        <input type="submit" value="Daftar Sekarang" />
+        </select>
+      </form>
+  </body>
+</html>
